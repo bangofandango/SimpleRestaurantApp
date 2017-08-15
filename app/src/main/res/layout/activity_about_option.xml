@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg_gradient"
+    tools:context="com.maburton.restaurantapp.AboutOptionActivity">
+
+    <TextView
+        android:id="@+id/contactTitleTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="serif"
+        android:textStyle="bold"
+        android:text="@string/about_title"
+        android:textAlignment="center"
+        android:paddingTop="10dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="22sp"/>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:paddingTop="32dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/aboutTextView"
+            android:textSize="16sp"
+            android:textColor="@color/colorAccent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="6dp"
+            android:paddingStart="@dimen/activity_horizontal_margin"
+            android:paddingEnd="@dimen/activity_horizontal_margin"
+            android:text="@string/about_blurb"/>
+
+
+    </LinearLayout>
+
+</LinearLayout>

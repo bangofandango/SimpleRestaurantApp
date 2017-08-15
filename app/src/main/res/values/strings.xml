@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Restaurant App</string>
+    <string name="contact_title">Contact Us</string>
+    <string name="about_title">About Us</string>
+    <string name="contact_address">112-33990 Some Street \nCity, Province</string>
+    <string name="contact_hours">monday - thursday: 11am - 7pm\n
+        friday - saturday: 11am - 9pm\n
+        sunday: 11am - 5pm</string>
+    <string name="contact_ables">phone: (222) 333-4444\nemail: example@restaurant.com</string>
+    <string name="about_blurb">We are a small restaurant located somewhere near you. We started out renting a restaurant kitchen three nights a week, making sandwiches and soups and selling them in the local farmers markets. The demand became so overwhelming, we decided to open our own storefront!\n
+         \n
+        Now we have a bustling storefront in the heart  of downtown Some City, serving up delicious breakfast and lunch sandwiches along with traditional English pub fare such as Bangers and Mash, and Fish and Chips. Come Check us out!\n
+        \n
+        If you would like to make a reservation, please give us a call at (222) 333-4444
+    </string>
+    <string name="copyright">copyright 2017 M A Burton, maburton.com. </string>
+</resources>

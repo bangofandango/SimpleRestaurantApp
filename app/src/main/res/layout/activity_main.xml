@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="@dimen/activity_horizontal_margin"
+                android:paddingRight="@dimen/activity_horizontal_margin"
+                android:paddingTop="@dimen/activity_vertical_margin"
+                android:orientation="vertical"
+                android:background="@drawable/bg_gradient">
+
+    <TextView
+        android:id="@+id/AppTitleTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="serif"
+        android:paddingBottom="10dp"
+        android:text="Restaurant App Sample"
+        android:textColor="@color/colorAccent"
+        android:textSize="26sp"
+        android:textStyle="bold"/>
+
+    <ImageView
+        android:id="@+id/PreviewImageView"
+        android:paddingLeft="36dp"
+        android:paddingRight="36dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/AppTitleTextView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/breakfast_m9kbtt"/>
+
+    <Button
+        android:id="@+id/sample1Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/PreviewImageView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="16dp"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/custom_button_selector"
+        android:minWidth="400dp"
+        android:text="About Us"
+        android:onClick="aboutLaunch"
+        android:textSize="16sp"/>
+
+    <Button
+        android:id="@+id/sample2Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/sample1Button"
+        android:layout_below="@+id/sample1Button"
+        android:layout_marginBottom="16dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/custom_button_selector"
+        android:minWidth="400dp"
+        android:text="Menu"
+        android:onClick="menuLaunch"
+        android:textSize="16sp"/>
+
+    <Button
+        android:id="@+id/sample3Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/sample2Button"
+        android:layout_below="@+id/sample2Button"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/custom_button_selector"
+        android:minWidth="400dp"
+        android:text="Contact"
+        android:onClick="contactLaunch"
+        android:textSize="16sp"/>
+
+
+    <TextView
+        android:id="@+id/copyrightTextView"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+        android:textAlignment="center"
+        android:textColor="@color/menuDark"
+        android:text="@string/copyright"/>
+</RelativeLayout>
